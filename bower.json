@@ -1,0 +1,25 @@
+{
+  "name": "br.com.pnmaquetes",
+  "version": "0.0.0",
+  "homepage": "www.pnmaquetes.com.br",
+  "authors": [
+    "Douglas Neves <dougneves@gmail.com>"
+  ],
+  "description": "Site www.pnmaquetes.com.br",
+  "main": "index.html",
+  "keywords": [
+    "website"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.3",
+    "bootstrap": "~3.3.4"
+  }
+}
