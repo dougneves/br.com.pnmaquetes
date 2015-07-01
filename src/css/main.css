@@ -1,0 +1,22 @@
+body {
+  background-color: #222;
+}
+
+.container {
+  background-color: #eee;
+  max-width: 900px;
+}
+
+header {
+  text-align: right;
+}
+
+#show {
+  text-align: center;
+  background-color: #212121;
+  color: #E0E0E0;
+}
+#show h2{
+  padding:30px;
+  color: #F57F17;
+}
