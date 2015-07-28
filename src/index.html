@@ -10,25 +10,25 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <div class="container">
 
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">PN Maquetes</a>
+          <a class="navbar-brand" href="#"><img src="img/logo_maquetes.png" alt="PN Maquetes" style="height: 100%"></a>
         </div>
         <div>
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">Quem Somos</a></li>
-            <li><a href="#">Serviços</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#quemsomos">Quem Somos</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#contato">Contato</a></li>
           </ul>
         </div>
       </div>
     </nav>
-
-    <section id="content-fluid">
-      <article id="show" class="jumbotron">
+	
+<div class="container">
+	<div id="show" class="jumbotron">
+		<img src="img/logo_maquetes.png" alt="PN Maquetes">
         <h3>
           Venha fazer a diferença dos seus projetos com uma apresentação
           mais transparente para seu cliente.
@@ -36,9 +36,11 @@
         <h2>
           Sua Criatividade<br>+<br>Nossa Qualidade<br>=<br>Ótimos Resultados
         </h2>
-      </article>
+     </div>
+      
+    <section id="content-fluid">
       <article id="who">
-        <h2>Quem somos</h2>
+        <h2 id="quemsomos">Quem somos</h2>
         <p>
           A <b>PN Maquetes</b> é um estúdio de criação que desenvolve trabalhos
           em computação gráfica. Tem como seus principais produtos a <b>Maquete
@@ -54,15 +56,15 @@
         </p>
       </article>
       <article id="services">
-        <h2>Serviços</h2>
+        <h2 id="servicos">Serviços</h2>
         <ul>
-        	<li><a href="#">Maquete 3D</a></li>
-        	<li><a href="#">Planta Humanizada</a></li>
-        	<li><a href="#">Projeto Técnico (CAD)</a></li>
+        	<li><a href="#maquete3d">Maquete 3D</a></li>
+        	<li><a href="#plantahumanizada">Planta Humanizada</a></li>
+        	<li><a href="#projetotecnico">Projeto Técnico (CAD)</a></li>
         </ul>
         <div>
           <div class="panel panel-default">
-            <div class="panel-heading">Maquete 3D</div>
+            <div class="panel-heading" id="maquete3d"><h3>Maquete 3D</h3></div>
             <div class="panel-body">
               <p>
                 A <b>Maquete Eletrônica 3D</b> é uma <b>simulação</b> de ambientes internos
@@ -97,8 +99,28 @@
                 colabora para mostrar maiores detalhes.
               </p>
             </div>
-          </div>
-          <h3>Maquete 3D</h3>
+			<div class="panel-heading" id="plantahumanizada"><h3>Planta Humanizada</h3></div>
+			<div class="panel-body">
+				<p>
+				É uma planta layout com elementos de acabamentos e revestimentos do
+				projeto, dando uma comprensão do ambiente de uma forma mais clara
+				para o cliente, facilitando a apresentação.
+				</p>
+				<p>
+				Existe ainda a opção de Planta Humanizada 3D, onde a planta recebe
+				elementos de perspectiva para uma comprensão tridimensional dos
+				ambientes.
+				</p>
+			</div>
+			<div class="panel-heading" id="projetotecnico"><h3>Projeto Técnico - CAD</h3></div>
+			<div class="panel-body">
+				<p>
+				Digitalização do projeto técnico (esboços, croquis), como plantas,
+				cortes e elevações.
+				</p>
+			</div>
+		</div>
+          <!--<h3>Maquete 3D</h3>
           <p>
             A <b>Maquete Eletrônica 3D</b> é uma <b>simulação</b> de ambientes internos
             ou externos com o auxílio de computação gráfica.</p>
@@ -151,12 +173,21 @@
             Digitalização do projeto técnico (esboços, croquis), como plantas,
             cortes e elevações.
           </p>
-        </div>
+        </div>-->
       </article>
+	  <article id="contact">
+		<h2 id="contato">Contato</h2>
+		<p>
+		<span class="glyphicon glyphicon-envelope"></span> <b>priscila@pnmaquetes.com.br</b>
+		</p>
+		<p>
+		<span class="glyphicon glyphicon-home"></span> <b>www.pnmaquetes.com.br</b>
+		</p>
+	  </article>
     </section>
     <footer>
       PN Maquetes | www.pnmaquetes.com.br | priscila@pnmaquetes.com.br
     </footer>
-  </div>
+</div>
 </body>
 </html>

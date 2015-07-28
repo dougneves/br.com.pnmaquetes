@@ -13,10 +13,16 @@ header {
 
 #show {
   text-align: center;
-  background-color: #212121;
+  background-color: #111;
   color: #E0E0E0;
+  margin-top: 100px;
 }
 #show h2{
   padding:30px;
   color: #F57F17;
 }
+
+footer{
+	text-align: right;
+}
+
