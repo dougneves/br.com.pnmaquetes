@@ -31,7 +31,8 @@ header {
 
 footer{
 	text-align: right;
-  margin: 15px;
+  padding: 90px 15px 0px;
+  margin: 0;
 }
 
 .parallax-window-big {
