@@ -1,0 +1,59 @@
+body {
+  width: 100%;
+  margin:0;
+  padding:0;
+  border: 0;
+  background-color: #ECF0F1;
+}
+
+.container {
+  background: transparent;
+  width: 100%;
+  margin:0;
+  padding:0;
+  border: 0;
+}
+
+section{
+  background: transparent;
+}
+
+article {
+  background: transparent;
+  padding: 10px 5% 30px;
+  margin: 10px 5%;
+  text-align: justify;
+}
+
+header {
+  text-align: right;
+}
+
+footer{
+	text-align: right;
+  padding: 90px 15px 0px;
+  margin: 0;
+}
+
+.parallax-window-big {
+    min-height: 600px;
+    background: transparent;
+}
+
+.parallax-window-small {
+    min-height: 300px;
+    background: transparent;
+}
+
+#minilogo {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  padding: 5px;
+  background: transparent;
+  width: 15%;
+}
+
+#minilogo img {
+  width: 100%;
+}
