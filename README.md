@@ -1,3 +1,3 @@
 # br.com.pnmaquetes
 Site pnmaquetes
-www.pnmaquetes.com.br
+http://dougneves.github.io/br.com.pnmaquetes
